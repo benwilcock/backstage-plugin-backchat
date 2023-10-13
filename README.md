@@ -2,7 +2,15 @@
 
 I should apologize in advance - _this is such a rotten hack_ - but as a simple proof of concept for private AI in Backstage, it kinda works!
 
-What you will need:
+__I'd love some help to turn it into something more robust. Please feel free to contact me directly on [LinkedIn](https://www.linkedin.com/in/benwilcock/) if you'd like to contribute!__
+
+## Screenshots
+
+![The Backchat plugin after integration with a Backstage instance](/img/ui.png)
+
+## Installing The Plugin
+
+Follow the steps below to get the plugin installed into your Backstage instance. Here's what you will need:
 
 * A Backstage instance (follow [this guide](https://backstage.io/docs/getting-started/))
 * LocalAI and ChatbotUI (see [this](https://github.com/benwilcock/local-ai-playground) project for a `docker-compose.yaml`)
@@ -15,7 +23,7 @@ I wrote this plugin against Backstage v1.18.4.
 If you don't have a backstage instance yet, create one using the instructions [here](https://backstage.io/docs/getting-started/).
 
 ```bash
-# Only works if you installed the pre-requisites!
+# Only works if you installed all the pre-requisites!
 npx @backstage/create-app@latest
 ```
 
@@ -65,7 +73,7 @@ import {BackchatPage} from '@benbravo73/backstage-plugin-backchat'
 </FlatRoutes>
 ```
 
-At this stage, you can already make the plugin appear in your browser at `http://localhost:3000/backchat`. But read on to complete the installation.
+At this stage, you can already make the plugin appear in your browser at [http://localhost:3000/backchat](http://localhost:3000/backchat). But read on to complete the installation.
 
 ## Step 5: Add The Backchat Feature To Your Backstage Navigation Menu
 
