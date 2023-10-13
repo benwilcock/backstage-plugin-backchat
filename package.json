@@ -1,6 +1,6 @@
 {
   "name": "@benbravo73/backstage-plugin-backchat",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A quick and dirty frontend plugin that integrates a GenAI feature into Backstage",
   "main": "src/index.ts",
   "types": "src/index.ts",
