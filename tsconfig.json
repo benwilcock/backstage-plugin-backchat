@@ -1,0 +1,13 @@
+{
+    "include": ["src/index.ts"],
+    "exclude":["node_modules"],
+    "compilerOptions": {
+      "allowJs": true,
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "outDir": "dist-types/src",
+      "declarationMap": true,
+      "jsx": "react",
+      "esModuleInterop":true,
+    }
+  }

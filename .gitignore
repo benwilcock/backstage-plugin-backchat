@@ -1,0 +1,6 @@
+node_modules/
+node_modules/.bin/backstage-cli
+node_modules/.bin/msw
+dist-types/
+dist/
+package/

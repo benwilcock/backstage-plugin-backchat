@@ -1,0 +1,11 @@
+app:
+  title: Backstage Backchat plugin
+  baseUrl: http://localhost:3000
+
+backend:
+  baseUrl: http://localhost:7007
+  listen:
+    port: 7007
+
+ai_server:
+  url: "http://localhost:3001"
