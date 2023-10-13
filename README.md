@@ -53,6 +53,8 @@ This project uses `docker compose` to run a large language model server and a us
 
 From the project's root folder (in your terminal) run `docker compose up -d`. This will run [LocalAI](https://localai.io) and [ChatbotUI](https://github.com/mckaywrigley/chatbot-ui) in the background on your PC.
 
+Once started, you can check the ChatbotUI GUI is available by pointing your browser at [http://localhost:3001](http://localhost:3001).
+
 ## Step 4: Add The Backchat Plugin To You Backstage Instance
 
 Use yarn to add the plugin to your Backstage instance.
