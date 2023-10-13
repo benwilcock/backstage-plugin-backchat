@@ -100,3 +100,14 @@ Upon reloading of Backstage you should now see a new sidebar item for "Backchat 
 ## And Finally...
 
 Enjoy the plugin and the **private** conversations you have with your AI!
+
+
+## Bonus
+
+You can run the plugin in isolation for testing.
+
+```bash
+yarn start # Starts the plugin in standalone mode for testing
+```
+
+> Note to self: I added some bash scripts to remind me of some common commands required after cloning this repo.
