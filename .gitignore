@@ -4,3 +4,4 @@ node_modules/.bin/msw
 dist-types/
 dist/
 package/
+.vscode/
