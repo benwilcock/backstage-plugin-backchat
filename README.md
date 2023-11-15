@@ -137,23 +137,29 @@ Now you have integrated the Backchat plugin, started Backstage, and started your
 
 As you have a choice of which AI system you integrate using Backchat, here is some information to help you decide.
 
+### ChatBot UI and LocalAI Server
+
+The original (and default) choice. ChatBotUI and LocalAI has a nice look and feel. The ChatbotUI project is a bit dated now and the LocalAI server can be a challenge to understand when it comes to model loading and swapping, but overall the combination looks great for PoCs.
+
+<figure><img src="./img/chatbotui.png" alt="The Backchat plugin after integration with ChatbotUI" width="640px" height="360px"><figcaption>Exposing <a href="https://github.com/mckaywrigley/chatbot-ui">ChatBotUI</a> in the Backstage GUI.</figcaption></figure>
+
 ### Ollama Web UI and Ollama
 
 This client server combination is possibly the easiest to get started with. It features a built in model downloader with access to lots of models, switches between models easily, loads the default model automatically, and has a nice Chat interface that resembles ChatGPT. Try it!
 
 <figure><img src="./img/ollamawebui.png" alt="The Backchat plugin after integration with Ollama web UI" width="640px"><figcaption>Exposing <a href="https://github.com/mckaywrigley/chatbot-ui">Ollama Web UI</a> in the Backstage GUI.</figcaption></figure>
 
-### ChatBot UI and LocalAI Server
-
-ChatBotUI and LocalAI has a nice look and feel. The ChatbotUI project is a bit dated now and the LocalAI server can be a challenge to understand when it comes to model loading and swapping, but overall the combination looks great for PoCs.
-
-<figure><img src="./img/chatbotui.png" alt="The Backchat plugin after integration with ChatbotUI" width="640px" height="360px"><figcaption>Exposing <a href="https://github.com/mckaywrigley/chatbot-ui">ChatBotUI</a> in the Backstage GUI.</figcaption></figure>
-
 ### Text Generation Web UI (GUI and Server)
 
 The Text Gen Web UI has a lot of features - which can make it seem daunting at first. But, the "chat" features is very simple to use and it has a great model download / load workflow and works well with Mistral. Just don't for get to "Load" your model before starting your chat session.
 
 <figure><img src="./img/textgenwebui.png" alt="The Backchat plugin after integration with TextGenWebUI" width="640px" height="360px"><figcaption>Exposing <a href="https://github.com/oobabooga/text-generation-webui">Text Gen Web UI</a> in the Backstage GUI.</figcaption></figure>
+
+### Big-AGI UI (GUI Compatible With Multiple Servers)
+
+Big AGI is a web client for multiple LLM API servers and services. It can talk to LocalAI server, Text Gen Web UI server (Oobabooga) and Ollama server. It can have all these servers configured at the same time and switch easily between them using the model selector in the GUI. It has a number of useful configuration options and offers suggested "personas" which you can switch between.
+
+<figure><img src="./img/big-agi-ui.png" alt="The Backchat plugin after integration with Ollama web UI" width="640px"><figcaption>Exposing <a href="https://github.com/enricoros/big-agi">Big-AGI Web UI</a> in the Backstage GUI.</figcaption></figure>
 
 ## And Finally...
 
