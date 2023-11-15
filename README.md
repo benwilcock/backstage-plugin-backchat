@@ -56,9 +56,14 @@ Add the following config to your new `app-config.local.yaml` file:
 ```yaml
 # Mandatory: Choose one URL to incorporate, either ChatbotUI or TextGenWebUI.
 ai_server:
-  utl: "http://localhost:3100" # Specifies where to find the Ollama Web UI
-  #url: "http://localhost:3001" # Specifies where to find the ChatbotUI GUI
-  #url: "http://localhost:7860" # Specifies where to find the Text Generation WebUI
+  # Integrate the Chatbot UI GUI (the default, uses LocalAI server).
+  url: "http://localhost:3001" 
+  # To integrate the Ollama Web UI (uses Ollama server) uncomment the next line.
+  # url: "http://localhost:3100"
+  # To integrate the Text Generation Web UI (incorporates its own server)  uncomment the next line
+  # url: "http://localhost:7860"
+  # To integrate the Big-AGI UI (can use multiple servers)  uncomment the next line
+  # url: "http://localhost:3456" 
 
 # Optional: You can also load this Backstage catalog that contains a system diagram and TechDocs for Backchat.
 catalog:
