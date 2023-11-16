@@ -4,7 +4,7 @@ A simple **proof of concept** that allows you to experiment with multiple privat
 
 __I'd love some help to turn Backchat into something more. Please feel free to contact me directly on [LinkedIn](https://www.linkedin.com/in/benwilcock/) or GitHub if you'd like to contribute to this project!__
 
-<figure><img src="./img/backchat-architecture.jpg" alt="The Backchat Plugin Architecture" width="640px" height="360px"><figcaption>The Backchat Plugin Architecture.</figcaption></figure>
+<figure><img src="./img/backchat-architecture.jpg" alt="The Backchat Plugin Architecture" width="640px" height="360px"><figcaption>The Backchat Plugin Architecture (Current State).</figcaption></figure>
 
 ## Installing The Plugin
 
@@ -183,6 +183,8 @@ Roadmap suggestions:
 * Store prompts
 * Store settings by model
 * Offer multi-modal use cases like whisper translation or stable diffusion image generation etc.
+
+<figure><img src="./img/backchat-architecture-target.jpg" alt="The Backchat Plugin Architecture In The Future" width="640px" height="360px"><figcaption>The Backchat Plugin Architecture (Future State).</figcaption></figure>
 
 ## Testing
 
