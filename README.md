@@ -156,7 +156,7 @@ This client server combination is possibly the easiest to get started with. It f
 
 ### Text Generation Web UI (GUI and Server)
 
-The Text Gen Web UI has a lot of features - which can make it seem daunting at first. But, the "chat" features is very simple to use and it has a great model download / load workflow and works well with Mistral. Just don't for get to "Load" your model before starting your chat session.
+The Text Gen Web UI has a lot of features - which can make it seem daunting at first. But, the "chat" features is very simple to use and it has a great model download / load workflow and works well with Mistral. Just don't forget to "Load" your model before starting your chat session.
 
 <figure><img src="./img/textgenwebui.png" alt="The Backchat plugin after integration with TextGenWebUI" width="640px" height="360px"><figcaption>Exposing <a href="https://github.com/oobabooga/text-generation-webui">Text Gen Web UI</a> in the Backstage GUI.</figcaption></figure>
 
