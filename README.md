@@ -19,7 +19,7 @@ Here's what you will need before you get started:
 * Some patience.
 * An open mind so yu can imagine what the possibilities could be...
 
-## Step 1. Create A Backstage Instance
+## Step 1: Create A Backstage Instance
 
 If you don't have a backstage instance yet, create one using the instructions [here](https://backstage.io/docs/getting-started/).
 
@@ -32,7 +32,7 @@ npx @backstage/create-app@latest
 
 The Backstage installer will start. When prompted, choose a name for you instance, like `my-instance`.
 
-## Step 3: Start The AI Server
+## Step 2: Start The AI Server
 
 Clone [this project](https://github.com/benwilcock/backstagecon-2023) somewhere other than the backstage instance folder and read through the [README](https://github.com/benwilcock/backstagecon-2023/blob/main/README.md) file. A small amount of configuration and setup is required.
 
@@ -42,7 +42,7 @@ Once you have configured and started the AI servers in Docker, you can check the
 
 > Tip: If you don't want to run your own AI servers locally then why not try [RunPod](https://www.runpod.io/)? RunPod offers a whole bunch of [ready to run community templates](https://www.runpod.io/console/templates) with a broad selection of different hardware configurations. Just be mindful of how this choice may impact your data security and privacy before you make your decision. 
 
-## Step 2. Add The AI Server Config To Backstage
+## Step 3: Add The AI Server Config To Backstage
 
 Create a local configuration file in your backstage instance.
 
@@ -74,7 +74,7 @@ catalog:
     - allow: [Component, API, Resource, System, Domain, Location, Group, User]
 ```
 
-## Step 3: Add The Backchat Plugin To Your Backstage Instance
+## Step 4: Add The Backchat Plugin To Your Backstage Instance
 
 Use the `yarn add` command to add the plugin to your Backstage instance.
 
@@ -96,7 +96,7 @@ import {BackchatPage} from '@benbravo73/backstage-plugin-backchat'
 
 At this stage, you can already make the plugin appear in your browser at [http://localhost:3000/backchat](http://localhost:3000/backchat). But read on to complete the installation.
 
-## Step 4: Add The Backchat Feature To Your Backstage Navigation Menu
+## Step 5: Add The Backchat Feature To Your Backstage Navigation Menu
 
 To integrate your plugin with the rest of the UI, you need to add an entry into the side navigation.
 
@@ -114,7 +114,7 @@ import ChatIcon from '@material-ui/icons/Chat';
 ...
 ```
 
-## Step 5: Start Backstage
+## Step 6: Start Backstage
 
 In the root folder of your Backstage instance, start backstage with the following command.
 
@@ -124,7 +124,7 @@ yarn dev
 
 A browser window may automatically open. If it does not, try http://localhost:3000. Upon loading of Backstage you should now see a new sidebar item for "Backchat AI." The feature won't work yet. You need to start the LLM clients and servers. Continue to the next step.
 
-## Step 6: Start The LLM Containers
+## Step 7: Start The LLM Containers
 
 Clone [this project](https://github.com/benwilcock/backstagecon-2023) somewhere other than the backstage instance folder and read through the [README](https://github.com/benwilcock/backstagecon-2023/blob/main/README.md) file. A small amount of configuration and setup is required.
 
@@ -134,7 +134,7 @@ Once you have configured and started the AI servers in Docker, you can check the
 
 > Tip: If you don't want to run your own AI servers locally then why not try [RunPod](https://www.runpod.io/)? RunPod offers a whole bunch of [ready to run community templates](https://www.runpod.io/console/templates) with a broad selection of different hardware configurations. Just be mindful of how this choice may impact your data security and privacy before you make your decision. 
 
-## Step 7: Chat With Backchat
+## Step 8: Chat With Backchat
 
 Now you have integrated the Backchat plugin, started Backstage, and started your LLM containers, navigate to Backstage and try the new sidebar item "Backstage AI." Your configured Chat GUI will load. Begin chatting with your AI!
 
