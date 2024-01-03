@@ -32,7 +32,7 @@ npx @backstage/create-app@latest
 
 The Backstage installer will start. When prompted, choose a name for you instance, like `my-instance`.
 
-## Step 3: Start The AI Server
+## Step 2: Start The AI Server
 
 Clone [this project](https://github.com/benwilcock/backstagecon-2023) somewhere other than the backstage instance folder and read through the [README](https://github.com/benwilcock/backstagecon-2023/blob/main/README.md) file. A small amount of configuration and setup is required.
 
@@ -42,7 +42,7 @@ Once you have configured and started the AI servers in Docker, you can check the
 
 > Tip: If you don't want to run your own AI servers locally then why not try [RunPod](https://www.runpod.io/)? RunPod offers a whole bunch of [ready to run community templates](https://www.runpod.io/console/templates) with a broad selection of different hardware configurations. Just be mindful of how this choice may impact your data security and privacy before you make your decision. 
 
-## Step 2. Add The AI Server Config To Backstage
+## Step 3. Add The AI Server Config To Backstage
 
 Create a local configuration file in your backstage instance.
 
