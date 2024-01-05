@@ -41,7 +41,7 @@ export const BackchatComponent = () => {
           style={{ border: '0px', borderRadius: '0px', boxShadow: '0px' }}
           src={ai_server_url}
           title="Backchat AI"
-          sandbox="allow-same-origin allow-scripts allow-popups"
+          sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
         />
       </Content>
     </Page>

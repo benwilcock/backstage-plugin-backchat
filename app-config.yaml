@@ -8,4 +8,4 @@ backend:
     port: 7007
 
 ai_server:
-  url: "http://localhost:3001"
+  url: "http://localhost:3100"
